@@ -13,7 +13,7 @@
     
     
       
-        <title>NHS Federated Data Platform Design guide</title>
+        <title>Federated Data Platform | Design guide</title>
       
     
     
@@ -40,6 +40,8 @@
         <style>:root{--md-text-font:"Arial";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="extra.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -80,9 +82,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="NHS Federated Data Platform Design guide" class="md-header__button md-logo" aria-label="NHS Federated Data Platform Design guide" data-md-component="logo">
+    <a href="." title="Federated Data Platform | Design guide" class="md-header__button md-logo" aria-label="Federated Data Platform | Design guide" data-md-component="logo">
       
-  <img src="images/logo/nhs-blue-on-white.jpg" alt="logo">
+  <img src="images/nhs-blue-on-white.jpg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -92,7 +94,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            NHS Federated Data Platform Design guide
+            Federated Data Platform | Design guide
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -175,14 +177,16 @@
                     
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="NHS Federated Data Platform Design guide" class="md-nav__button md-logo" aria-label="NHS Federated Data Platform Design guide" data-md-component="logo">
+    <a href="." title="Federated Data Platform | Design guide" class="md-nav__button md-logo" aria-label="Federated Data Platform | Design guide" data-md-component="logo">
       
-  <img src="images/logo/nhs-blue-on-white.jpg" alt="logo">
+  <img src="images/nhs-blue-on-white.jpg" alt="logo">
 
     </a>
-    NHS Federated Data Platform Design guide
+    Federated Data Platform | Design guide
   </label>
   
     <div class="md-nav__source">
@@ -257,14 +261,14 @@
         
           <li class="md-nav__item">
   <a href="#1core-colours" class="md-nav__link">
-    1.Core colours:
+    1.Core colours
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-font" class="md-nav__link">
-    2.   Font
+  <a href="#2-type-sizes" class="md-nav__link">
+    2.   Type sizes
   </a>
   
 </li>
@@ -335,6 +339,13 @@
           <li class="md-nav__item">
   <a href="#error-state" class="md-nav__link">
     Error state
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rag-colours-red-amber-green" class="md-nav__link">
+    RAG colours (Red Amber Green)
   </a>
   
 </li>
@@ -493,270 +504,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-use-this-guide" class="md-nav__link">
-    How to use this guide
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#top-five-things-to-consider" class="md-nav__link">
-    Top five things to consider
-  </a>
-  
-    <nav class="md-nav" aria-label="Top five things to consider">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1core-colours" class="md-nav__link">
-    1.Core colours:
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-font" class="md-nav__link">
-    2.   Font
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-using-colours" class="md-nav__link">
-    3.   Using colours
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-headings" class="md-nav__link">
-    4.   Headings
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-links" class="md-nav__link">
-    5.   Links
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#guidance-on-use-of-colour" class="md-nav__link">
-    Guidance on use of colour
-  </a>
-  
-    <nav class="md-nav" aria-label="Guidance on use of colour">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#nhs-colour-palette" class="md-nav__link">
-    NHS Colour Palette
-  </a>
-  
-    <nav class="md-nav" aria-label="NHS Colour Palette">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#core-colours" class="md-nav__link">
-    Core colours
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#buttons" class="md-nav__link">
-    Buttons
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#nhs-blue-grey-background" class="md-nav__link">
-    NHS blue-grey background
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#error-state" class="md-nav__link">
-    Error state
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#link-colours" class="md-nav__link">
-    Link colours
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#border" class="md-nav__link">
-    Border
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#written-content" class="md-nav__link">
-    Written Content
-  </a>
-  
-    <nav class="md-nav" aria-label="Written Content">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#readability" class="md-nav__link">
-    Readability
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tone-of-voice" class="md-nav__link">
-    Tone of voice
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#numbers-in-data" class="md-nav__link">
-    Numbers in data
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#date-and-time" class="md-nav__link">
-    Date and time
-  </a>
-  
-    <nav class="md-nav" aria-label="Date and time">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#dates" class="md-nav__link">
-    Dates
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#time" class="md-nav__link">
-    Time
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#images" class="md-nav__link">
-    Images
-  </a>
-  
-    <nav class="md-nav" aria-label="Images">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#informative-images" class="md-nav__link">
-    Informative images
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#decorative-images" class="md-nav__link">
-    Decorative images
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#product-tiles" class="md-nav__link">
-    Product tiles
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#data-visualisations" class="md-nav__link">
-    Data Visualisations
-  </a>
-  
-    <nav class="md-nav" aria-label="Data Visualisations">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#chart-colours" class="md-nav__link">
-    Chart colours
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -776,16 +523,18 @@
 <p>It’s important to ensure that all products can be used as intended and that end users understand the interface and can get the outcome they need easily. This guide contains clear and consistent guidelines on core design elements, including colour palettes, typography, and layout structures.</p>
 <p>You will also find screengrabs of templates with annotations to explain which components to use.</p>
 <h2 id="top-five-things-to-consider">Top five things to consider</h2>
-<h3 id="1core-colours">1.Core colours:</h3>
-<p>NHS blue - 
-Hex 005EB8 </p>
-<p>Use this for logos, straps</p>
-<p>White - 
-Hex ffffff</p>
-<p>Use this for labels on buttons, NHS logo, headings on NHS blue</p>
-<h3 id="2-font">2.   Font</h3>
+<h3 id="1core-colours">1.Core colours</h3>
+<ul>
+<li>
+<p><p class="inline-container">NHS Blue<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span> Use this for logos, straps</p></p>
+</li>
+<li>
+<p><p class="inline-container">White<span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span> Use this for labels on buttons, NHS logo, headings on NHS blue</p></p>
+</li>
+</ul>
+<h3 id="2-type-sizes">2.   Type sizes</h3>
 <p>•   The FDP uses type sizes Small, Medium and Large. We believe that the “small” size is unreadable for many users, therefore would recommend only using Medium and Large</p>
-<p>•   Optimal default paragraph font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.</p>
+<p>•   If secifying text in points or pixels, the optimal default paragraph font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.</p>
 <h3 id="3-using-colours">3.   Using colours</h3>
 <p>•   Users think that when colour is used it is trying to convey information, so make sure the use of colour is intentional and consistent. Don't use colour just for decoration.</p>
 <p>•   Follow the colour guidance below to ensure consistent experience for users across all products </p>
@@ -816,31 +565,42 @@ if a user has logged into a secure site and the link would take them away from i
 </code></pre>
 <h3 id="nhs-colour-palette">NHS Colour Palette</h3>
 <h4 id="core-colours">Core colours</h4>
-<pre><code>NHS blue - HEX 005EB8 
-White - HEX FFFFFF
-</code></pre>
+<ul>
+<li><p class="inline-container">NHS Blue<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span> Use this for logos, straps</p>   </li>
+<li><p class="inline-container">White<span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span></p></li>
+</ul>
 <h4 id="buttons">Buttons</h4>
-<pre><code>Button colour - HEX 007F3B
-Secondary button colour - HEX 4C6272  
-Font colour - HEX FFFFFF   
-Background
-</code></pre>
+<ul>
+<li><p class="inline-container">Button colour<span class="colour-rect" style="--colour: #007F3B; --txt_clr: white">#007F3B</span></p></li>
+<li><p class="inline-container">Secondary button colour<span class="colour-rect" style="--colour: #4C6272; --txt_clr: white">#4C6272</span></p>  </li>
+<li><p class="inline-container">Button labels <span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span></p></li>
+</ul>
 <h4 id="nhs-blue-grey-background">NHS blue-grey background</h4>
-<pre><code>Background - HEX F0F4F5
-</code></pre>
+<ul>
+<li><p class="inline-container">Page background<span class="colour-rect" style="--colour: #F0F4F5; --txt_clr: black">#F0F4F5</span></p></li>
+</ul>
 <h4 id="error-state">Error state</h4>
-<pre><code>Error colour - HEX D5281B
-</code></pre>
+<ul>
+<li><p class="inline-container">Error state colour<span class="colour-rect" style="--colour: #D5281B; --txt_clr: white">#D5281B</span></p></li>
+</ul>
+<h4 id="rag-colours-red-amber-green">RAG colours (Red Amber Green)</h4>
+<ul>
+<li><p class="inline-container">Red colour<span class="colour-rect" style="--colour: #DA291C; --txt_clr: white">#DA291C</span></p>    </li>
+<li><p class="inline-container">Amber colour<span class="colour-rect" style="--colour: #ED8B00; --txt_clr: white">#ED8B00</span></p> </li>
+<li><p class="inline-container">Green colour<span class="colour-rect" style="--colour: #006747; --txt_clr: white">#006747</span></p></li>
+</ul>
 <h4 id="link-colours">Link colours</h4>
-<pre><code>Link colour - HEX 005EB8    
-Hover link colour - HEX 7C2855  
-Visited link colour - HEX330072
-Active link colour - HEX 002F5C
-</code></pre>
+<ul>
+<li><p class="inline-container">Link colour<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span></p>   </li>
+<li><p class="inline-container">Hover link colour<span class="colour-rect" style="--colour: #7C2855; --txt_clr: white">#7C2855</span></p> </li>
+<li><p class="inline-container">Visited link colour<span class="colour-rect" style="--colour: #330072; --txt_clr: white">#330072</span></p> </li>
+<li><p class="inline-container">Active link colour<span class="colour-rect" style="--colour: #002F5C; --txt_clr: white">#002F5C</span></p>     </li>
+</ul>
 <h4 id="border">Border</h4>
-<pre><code>Border colour - HEX D8DDE0      
-Form border colour - HEX 4C6272
-</code></pre>
+<ul>
+<li><p class="inline-container">Border colour<span class="colour-rect" style="--colour: #D8DDE0; --txt_clr: white">#D8DDE0</span></p>    </li>
+<li><p class="inline-container">Form border colour<span class="colour-rect" style="--colour: #4C6272; --txt_clr: white">#4C6272</span></p>  </li>
+</ul>
 <h2 id="written-content">Written Content</h2>
 <h3 id="readability">Readability</h3>
 <p>•   Aim to write for a reading age of 9 to 11 years old (*explain why)</p>
@@ -892,19 +652,21 @@ Form border colour - HEX 4C6272
 <p>•   Category names on a chart axis or in a legend should be clear and concise [type size medium]</p>
 <p>•   For data from two or more time periods, put the older values before the newer values </p>
 <h3 id="chart-colours">Chart colours</h3>
-<p>To be used in this order (if more than 12 then start again from the first colour):
-    •   one colour chart - HEX 005EB8 
-    •   two colour chart - HEX 41B6E6 
-    •   three colour chart - HEX 4C6272 
-    •   four colour chart - HEX FFB81C 
-    •   five colour chart - HEX AE2573 
-    •   six colour chart - HEX 00A499 
-    •   seven colour chart - HEX E317AA 
-    •   eight colour chart - HEX 007F3B<br />
-    •   nine colour chart - HEX 9A6324 
-    •   ten colour chart - HEX 78BE20<br />
-    •   eleven colour chart - HEX ED4F00 
-    •   twelve colour chart - HEX 880FB8 </p>
+<p>To be used in this order (if more than 12 then start again from the first colour):</p>
+<ul>
+<li><p class="inline-container">One colour chart<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span></p>  </li>
+<li><p class="inline-container">Two colour chart<span class="colour-rect" style="--colour: #41B6E6; --txt_clr: white">#41B6E6</span></p> </li>
+<li><p class="inline-container">Three colour chart<span class="colour-rect" style="--colour: #4C6272; --txt_clr: white">#4C6272</span></p></li>
+<li><p class="inline-container">Four colour chart<span class="colour-rect" style="--colour: #FFB81C; --txt_clr: white">#FFB81C</span></p>     </li>
+<li><p class="inline-container">Five colour chart<span class="colour-rect" style="--colour: #AE2573; --txt_clr: white">#AE2573</span></p> </li>
+<li><p class="inline-container">Six colour chart<span class="colour-rect" style="--colour: #00A499; --txt_clr: white">#00A499</span></p></li>
+<li><p class="inline-container">Seven colour chart<span class="colour-rect" style="--colour: #E317AA; --txt_clr: white">#E317AA</span></p>    </li>
+<li><p class="inline-container">Eight colour chart<span class="colour-rect" style="--colour: #007F3B; --txt_clr: white">#007F3B</span></p> </li>
+<li><p class="inline-container">Nine colour chart<span class="colour-rect" style="--colour: #9A6324; --txt_clr: white">#9A6324</span></p></li>
+<li><p class="inline-container">Ten colour chart<span class="colour-rect" style="--colour: #78BE20; --txt_clr: white">#78BE20</span></p>  </li>
+<li><p class="inline-container">Eleven colour chart<span class="colour-rect" style="--colour: #ED4F00; --txt_clr: white">#ED4F00</span></p> </li>
+<li><p class="inline-container">Twelve colour chart<span class="colour-rect" style="--colour: #880FB8; --txt_clr: white">#880FB8</span></p> </li>
+</ul>
 
 
 
@@ -942,7 +704,7 @@ Form border colour - HEX 4C6272
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["toc.integrate"], "search": "assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="assets/javascripts/bundle.5a2dcb6a.min.js"></script>
