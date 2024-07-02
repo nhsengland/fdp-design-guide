@@ -1,4 +1,4 @@
-site_name: NHS Federated Data Platform Design guide
+site_name: Federated Data Platform | Design guide
 # site_url: https://example.com
 repo_url: https://github.com/baracoffice/pagetest
 repo_name: Design guide page test
@@ -16,5 +16,10 @@ theme:
     primary: indigo
   font:
     text: Arial
-  logo: images/logo/nhs-blue-on-white.jpg
+  logo: images/nhs-blue-on-white.jpg
   favicon: images/favicon/favicon.ico
+  features: 
+    - toc.integrate
+
+extra_css:
+  - extra.css

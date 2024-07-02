@@ -7,21 +7,18 @@ It’s important to ensure that all products can be used as intended and that en
 You will also find screengrabs of templates with annotations to explain which components to use.
 
 ##Top five things to consider
-###1.Core colours:  
-NHS blue - 
-Hex 005EB8 
+###1.Core colours
 
-Use this for logos, straps
+- <p class="inline-container">NHS Blue<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span> Use this for logos, straps</p>
 
-White - 
-Hex ffffff
 
-Use this for labels on buttons, NHS logo, headings on NHS blue
+- <p class="inline-container">White<span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span> Use this for labels on buttons, NHS logo, headings on NHS blue</p>
 
-###2.	Font  
+
+###2.	Type sizes  
 •	The FDP uses type sizes Small, Medium and Large. We believe that the “small” size is unreadable for many users, therefore would recommend only using Medium and Large
 
-•	Optimal default paragraph font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.
+•	If secifying text in points or pixels, the optimal default paragraph font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.
 
 ###3.	Using colours  
 •	Users think that when colour is used it is trying to convey information, so make sure the use of colour is intentional and consistent. Don't use colour just for decoration.
@@ -65,34 +62,40 @@ Use this for labels on buttons, NHS logo, headings on NHS blue
 
 #### Core colours 
 	
-	NHS blue - HEX 005EB8 
-	White - HEX FFFFFF   
+- <p class="inline-container">NHS Blue<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span> Use this for logos, straps</p>   
+- <p class="inline-container">White<span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span></p>
 
 #### Buttons  
 		
-    Button colour - HEX 007F3B
-    Secondary button colour - HEX 4C6272  
-    Font colour - HEX FFFFFF   
-    Background 
+- <p class="inline-container">Button colour<span class="colour-rect" style="--colour: #007F3B; --txt_clr: white">#007F3B</span></p>
+- <p class="inline-container">Secondary button colour<span class="colour-rect" style="--colour: #4C6272; --txt_clr: white">#4C6272</span></p>  
+- <p class="inline-container">Button labels <span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span></p>
 
 #### NHS blue-grey background
-    Background - HEX F0F4F5
+
+- <p class="inline-container">Page background<span class="colour-rect" style="--colour: #F0F4F5; --txt_clr: black">#F0F4F5</span></p>
 
 #### Error state  
 
-    Error colour - HEX D5281B
+- <p class="inline-container">Error state colour<span class="colour-rect" style="--colour: #D5281B; --txt_clr: white">#D5281B</span></p>
+
+#### RAG colours (Red Amber Green)
+	
+- <p class="inline-container">Red colour<span class="colour-rect" style="--colour: #DA291C; --txt_clr: white">#DA291C</span></p> 	
+- <p class="inline-container">Amber colour<span class="colour-rect" style="--colour: #ED8B00; --txt_clr: white">#ED8B00</span></p> 
+- <p class="inline-container">Green colour<span class="colour-rect" style="--colour: #006747; --txt_clr: white">#006747</span></p>
 
 #### Link colours 
 	
-    Link colour - HEX 005EB8  	
-    Hover link colour - HEX 7C2855  
-    Visited link colour - HEX330072
-    Active link colour - HEX 002F5C  
+- <p class="inline-container">Link colour<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span></p> 	
+- <p class="inline-container">Hover link colour<span class="colour-rect" style="--colour: #7C2855; --txt_clr: white">#7C2855</span></p> 
+- <p class="inline-container">Visited link colour<span class="colour-rect" style="--colour: #330072; --txt_clr: white">#330072</span></p> 
+- <p class="inline-container">Active link colour<span class="colour-rect" style="--colour: #002F5C; --txt_clr: white">#002F5C</span></p>     
 
 #### Border 
 	
-    Border colour - HEX D8DDE0  	
-    Form border colour - HEX 4C6272  
+- <p class="inline-container">Border colour<span class="colour-rect" style="--colour: #D8DDE0; --txt_clr: white">#D8DDE0</span></p>    
+- <p class="inline-container">Form border colour<span class="colour-rect" style="--colour: #4C6272; --txt_clr: white">#4C6272</span></p>  
 
 ## Written Content 
 ### Readability 
@@ -184,16 +187,18 @@ Use this for labels on buttons, NHS logo, headings on NHS blue
 
 ### Chart colours 
 To be used in this order (if more than 12 then start again from the first colour):
-    •	one colour chart - HEX 005EB8 
-    •	two colour chart - HEX 41B6E6 
-    •	three colour chart - HEX 4C6272 
-    •	four colour chart - HEX FFB81C 
-    •	five colour chart - HEX AE2573 
-    •	six colour chart - HEX 00A499 
-    •	seven colour chart - HEX E317AA 
-    •	eight colour chart - HEX 007F3B  
-    •	nine colour chart - HEX 9A6324 
-    •	ten colour chart - HEX 78BE20  
-    •	eleven colour chart - HEX ED4F00 
-    •	twelve colour chart - HEX 880FB8 
+
+- <p class="inline-container">One colour chart<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span></p> 	
+- <p class="inline-container">Two colour chart<span class="colour-rect" style="--colour: #41B6E6; --txt_clr: white">#41B6E6</span></p> 
+- <p class="inline-container">Three colour chart<span class="colour-rect" style="--colour: #4C6272; --txt_clr: white">#4C6272</span></p>
+- <p class="inline-container">Four colour chart<span class="colour-rect" style="--colour: #FFB81C; --txt_clr: white">#FFB81C</span></p> 	
+- <p class="inline-container">Five colour chart<span class="colour-rect" style="--colour: #AE2573; --txt_clr: white">#AE2573</span></p> 
+- <p class="inline-container">Six colour chart<span class="colour-rect" style="--colour: #00A499; --txt_clr: white">#00A499</span></p>
+- <p class="inline-container">Seven colour chart<span class="colour-rect" style="--colour: #E317AA; --txt_clr: white">#E317AA</span></p> 	
+- <p class="inline-container">Eight colour chart<span class="colour-rect" style="--colour: #007F3B; --txt_clr: white">#007F3B</span></p> 
+- <p class="inline-container">Nine colour chart<span class="colour-rect" style="--colour: #9A6324; --txt_clr: white">#9A6324</span></p>
+- <p class="inline-container">Ten colour chart<span class="colour-rect" style="--colour: #78BE20; --txt_clr: white">#78BE20</span></p> 	
+- <p class="inline-container">Eleven colour chart<span class="colour-rect" style="--colour: #ED4F00; --txt_clr: white">#ED4F00</span></p> 
+- <p class="inline-container">Twelve colour chart<span class="colour-rect" style="--colour: #880FB8; --txt_clr: white">#880FB8</span></p> 
+
 
