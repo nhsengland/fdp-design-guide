@@ -170,7 +170,7 @@ The templates, widgets and code will be accessed in Foundry as usual
 
 ## Further information
 #### Accessibility
-- <a href="(https://www.w3.org/mission/accessibility/)">W3C accessibility pages</a>
+- <a href="https://www.w3.org/mission/accessibility/">W3C accessibility pages</a>
 
 - <a href="https://service-manual.nhs.uk/accessibility">NHS Design guide accessibility pages</a>
 
