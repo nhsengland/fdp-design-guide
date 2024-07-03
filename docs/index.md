@@ -16,12 +16,12 @@ In the final version you will also find screengrabs of templates to be used in W
 
 ###2.	Type sizes  
 - the FDP uses type sizes Small, Medium and Large. We believe that the “small” size is unreadable for many users, therefore would recommend only using Medium and Large
-- if specifying text in points or pixels, the optimal default paragraph font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.
+- if specifying text in points or pixels, the optimal default font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.
 
 ###3.	Using colours  
 Users think that when colour is used it is trying to convey information, so make sure the use of colour is intentional and consistent. Don't use colour just for decoration.
 
-- follow the colour guidance below to ensure consistent experience for users across all products 
+- see the section on Guidance on use of colour - to ensure consistent experience for users across all products 
 - a proportion of users cannot differentiate different colours. To communicate with people who cannot see well or distinguish colours, you may need to: 
     - ensure that the contrast between colours is high enough using a colour tool
     - word things differently
@@ -40,7 +40,7 @@ Users think that when colour is used it is trying to convey information, so make
 - when a link will open a new tab for the user, add the words “opens in new tab” (or window) to the line
 
 ##Guidance on use of colour 
-Users find colours indicative of meaning, therefore, we need to use colour intentionally, for specific actions and consistently
+Users find colours indicative of meaning, therefore, we need to use colour intentionally and consistently
 
 - **Accessibility:** make sure that what the colour is "saying" is available in other ways. To communicate with people who cannot see well or distinguish colours, you may need to:
     - word things differently 
@@ -108,9 +108,9 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 
 ## Numbers, Dates and time
 - we use numerals for numbers (including 1 and 2)
-- for numbers over 999, use a comma for clarity – for example, 1,000
-- always start with zero for values less than 1 (Example: 0.75 not .75)
-- ensure negative values are indicated by a minus sign (Example: -65)
+- for numbers over 999, use a comma for clarity (for example, 1,000)
+- always start with zero for values less than 1 (for example: 0.75 not .75)
+- ensure negative values are indicated by a minus sign (for example: -65)
 - we spell out "one" when it means "a" or to avoid repeating a word
 
 ### Dates 
@@ -128,7 +128,7 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 ## Images 
 ### Informative images
 - do not use text in images 
-- provide alt-text when images convey meaning or information.  If decorative, use an empty alt-text tag [“”]
+- provide alt-text when images convey meaning or information.
 - keep alt-text to around 125 characters or 2 sentences 
 - if there's important information that you cannot fit in 125 characters (for example, you're describing a complex chart), include this information in the alt-text or consider linking to more information for screen reader users. 
 
@@ -138,7 +138,6 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 
 ### Product tiles
 - if there is a need to add an image to a product tile, ensure that it is a copyright free image that is meaningful to users, and not a screengrab of a product page
-- look out for more guidance on how to ensure that product tiles are accessbile for those using screen-readers - in a future release
 
 ## Data Visualisations 
 - every chart or other visualization must have a title. This benefits all users, and particularly those using a screen-reader. [type size medium]
