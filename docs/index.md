@@ -1,4 +1,4 @@
-#Build user centred products for the NHS Federated Data Platform
+#Build user centred products for the Data Platform
 ##How to use this guide
 By using this guide, you can ensure that the user of your product encounters a familiar and easy-to-use interface, and will find it similar to other FDP products they use.
 
@@ -143,10 +143,14 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 - every chart or other visualization must have a title. This benefits all users, and particularly those using a screen-reader. [type size medium]
 - keep axis titles as short as possible [type size medium]
 - category names on a chart axis or in a legend should be clear and concise [type size medium]
-- for data from two or more time periods, put the older values before the newer values 
+- for data from two or more time periods, put the older values before the newer values
+- always include some written explanation for the chart and an accompanying table for those who cannot use the data visualisation
+- include a source so that a user can track back to the original data
 
 ### Chart colours 
-To be used in this order (if more than 12 then start again from the first colour):
+We recommend to stick to no more than five different variables (colours or tints) on a graph or other chart type, otherwise your visualisation will be confusing. If you need to plot more than 5 variables, you should consider alternative ways to visualise this information.
+
+For any reasons, if we have to use more than five colours in a visualisation then use the colours listed below, in this order:
 
 - <p class="inline-container">One colour chart<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span></p> 	
 - <p class="inline-container">Two colour chart<span class="colour-rect" style="--colour: #41B6E6; --txt_clr: white">#41B6E6</span></p> 
