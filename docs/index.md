@@ -13,19 +13,23 @@ In the final version you will also find screengrabs of templates to be used in W
 
 - <p class="inline-container">White<span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span> Use this for labels on buttons, NHS logo, headings on NHS blue</p>
 
-
-###2.	Type sizes  
-- the FDP uses type sizes Small, Medium and Large. We believe that the “small” size is unreadable for many users, therefore would recommend only using Medium and Large
-- if specifying text in points or pixels, the optimal default font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.
-
-###3.	Using colours  
 Users think that when colour is used it is trying to convey information, so make sure the use of colour is intentional and consistent. Don't use colour just for decoration.
 
 - see the section on Guidance on use of colour - to ensure consistent experience for users across all products 
 - a proportion of users cannot differentiate different colours. To communicate with people who cannot see well or distinguish colours, you may need to: 
     - ensure that the contrast between colours is high enough using a colour tool
     - word things differently
-    - use more than one visual cue, for example, text and an icon as well as colour 
+    - use more than one visual cue, for example, text and an icon as well as colour
+
+###2.	Type sizes  
+- the Workshop uses type sizes Small, Medium and Large. We believe that the “small” size is unreadable for many users, therefore would recommend only using Medium and Large
+- if specifying text in points or pixels, the optimal default font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.
+
+###3.	Accessibility
+- In the UK, almost 1 in 5 people have a disability of some kind. Many more have temporary or situational disabilities, like an illness or injury. When you're working on NHS internal services, think about how people with different needs might use what you're making.  
+- set up automated accessibility testing and fix issues you identify
+- use the NHS <a href="https://nhsdigital.github.io/accessibility-checklist/">accessibility checklist</a> to carry out an initial WCAG evaluation
+ 
 
 ###4.	Headings  
 - make them meaningful, let readers know where they are/ what they are looking at 
@@ -99,7 +103,6 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 - use “Sentence Case” for headings (capital letter at the start of the sentence only, except for proper nouns e.g. names, company names)
 - use “Title case” for the names of organisations, training programmes, schemes, and specialties (Capital letters for each word in a title)
 
-
 ### Tone of voice
 - use the active voice - "find a pharmacy" rather than "a pharmacy can be found" 
 - there’s usually no need to say "please" or "please note"
@@ -120,10 +123,11 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 - short dates should be formatted DD/MM/YYYY 
 
 ### Time 
-- "5:30pm", not "1730hrs"
-- "midnight" not "00:00"
-- "midday" not "12 noon", "noon" or "12pm"
+- check what time format the users and Trust use, but it's likely to be 24 hour clock
 - "6 hours 30 minutes", not "6.5hrs" 
+
+### Other numbers
+- when showing the age of a patient it is important to be accurate and express the age in years and months not decimals
 
 ## Images 
 ### Informative images
