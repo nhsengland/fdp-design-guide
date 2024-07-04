@@ -13,7 +13,7 @@
     
     
       
-        <title>Federated Data Platform | Design guide</title>
+        <title>Data platform | Developers design guide</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#build-user-centred-products-for-the-nhs-federated-data-platform" class="md-skip">
+        <a href="#build-user-centred-products-for-the-data-platform" class="md-skip">
           Skip to content
         </a>
       
@@ -82,7 +82,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Federated Data Platform | Design guide" class="md-header__button md-logo" aria-label="Federated Data Platform | Design guide" data-md-component="logo">
+    <a href="." title="Data platform | Developers design guide" class="md-header__button md-logo" aria-label="Data platform | Developers design guide" data-md-component="logo">
       
   <img src="images/nhs-blue-on-white.jpg" alt="logo">
 
@@ -94,7 +94,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Federated Data Platform | Design guide
+            Data platform | Developers design guide
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -181,12 +181,12 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Federated Data Platform | Design guide" class="md-nav__button md-logo" aria-label="Federated Data Platform | Design guide" data-md-component="logo">
+    <a href="." title="Data platform | Developers design guide" class="md-nav__button md-logo" aria-label="Data platform | Developers design guide" data-md-component="logo">
       
   <img src="images/nhs-blue-on-white.jpg" alt="logo">
 
     </a>
-    Federated Data Platform | Design guide
+    Data platform | Developers design guide
   </label>
   
     <div class="md-nav__source">
@@ -531,7 +531,7 @@
   </a>
 
 
-<h1 id="build-user-centred-products-for-the-nhs-federated-data-platform">Build user centred products for the NHS Federated Data Platform</h1>
+<h1 id="build-user-centred-products-for-the-data-platform">Build user centred products for the Data Platform</h1>
 <h2 id="how-to-use-this-guide">How to use this guide</h2>
 <p>By using this guide, you can ensure that the user of your product encounters a familiar and easy-to-use interface, and will find it similar to other FDP products they use.</p>
 <p>It’s important to ensure that all products can be used as intended and that end users understand the interface and can get the outcome they need easily. This guide contains clear and consistent guidelines on core design elements, including colour palettes, typography, and layout structures.</p>
@@ -690,10 +690,13 @@
 <li>every chart or other visualization must have a title. This benefits all users, and particularly those using a screen-reader. [type size medium]</li>
 <li>keep axis titles as short as possible [type size medium]</li>
 <li>category names on a chart axis or in a legend should be clear and concise [type size medium]</li>
-<li>for data from two or more time periods, put the older values before the newer values </li>
+<li>for data from two or more time periods, put the older values before the newer values</li>
+<li>always include some written explanation for the chart and an accompanying table for those who cannot use the data visualisation</li>
+<li>include a source so that a user can track back to the original data</li>
 </ul>
 <h3 id="chart-colours">Chart colours</h3>
-<p>To be used in this order (if more than 12 then start again from the first colour):</p>
+<p>We recommend to stick to no more than five different variables (colours or tints) on a graph or other chart type, otherwise your visualisation will be confusing. If you need to plot more than 5 variables, you should consider alternative ways to visualise this information.</p>
+<p>For any reasons, if we have to use more than five colours in a visualisation then use the colours listed below, in this order:</p>
 <ul>
 <li><p class="inline-container">One colour chart<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span></p>  </li>
 <li><p class="inline-container">Two colour chart<span class="colour-rect" style="--colour: #41B6E6; --txt_clr: white">#41B6E6</span></p> </li>
