@@ -1,6 +1,6 @@
 #Build user centred products for the Data Platform
 ##How to use this guide
-By using this guide, you can ensure that the user of your product encounters a familiar and easy-to-use interface, and will find it similar to other FDP products they use.
+By using this guide, you can ensure that the user of your product encounters a familiar and easy-to-use interface, and will find it similar to other platform products they use.
 
 It’s important to ensure that all products can be used as intended and that end users understand the interface and can get the outcome they need easily. This guide contains clear and consistent guidelines on core design elements, including colour palettes, typography, and layout structures.
 
