@@ -22,26 +22,23 @@ Users think that when colour is used it is trying to convey information, so make
     - use more than one visual cue, for example, text and an icon as well as colour
 
 ###2.	Type sizes  
-- the Workshop uses type sizes Small, Medium and Large. We believe that the “small” size is unreadable for many users, therefore would recommend only using Medium and Large
+- the Workshop tool uses type sizes Small, Medium and Large. We believe that the “small” size is unreadable for many users, therefore would recommend only using Medium and Large
 - if specifying text in points or pixels, the optimal default font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.
 
 ###3.	Accessibility
 - In the UK, almost 1 in 5 people have a disability of some kind. Many more have temporary or situational disabilities, like an illness or injury. When you're working on NHS internal services, think about how people with different needs might use what you're making.  
 - set up automated accessibility testing and fix issues you identify
-- use the NHS <a href="https://nhsdigital.github.io/accessibility-checklist/">accessibility checklist</a> to carry out an initial WCAG evaluation
+- use the NHS <a href="https://nhsdigital.github.io/accessibility-checklist/">accessibility checklist</a> to carry out an initial Web Content Accessibility Guidelines (WCAG) evaluation
  
-
 ###4.	Headings  
-- make them meaningful, let readers know where they are/ what they are looking at 
+- make them meaningful, let readers know where they are and what they are looking at 
 - use “Sentence Case” for headings  
 - make proper use of the Semantic page structure used in Workshop to make it readable by screen-readers
 
 ###5.	Links 
-- links should open in the same window. There are 2 exceptions to this:
-    - for instructions or other help with filling in a form (for example, a date picker)
-    - if a user has logged into a secure site and the link would take them away from it
 - make links meaningful, do not say “click here”. Provide context where it will take the user
 - when a link will open a new tab for the user, add the words “opens in new tab” (or window) to the line
+
 
 ##Guidance on use of colour 
 Users find colours indicative of meaning, therefore, we need to use colour intentionally and consistently
@@ -68,20 +65,20 @@ Users find colours indicative of meaning, therefore, we need to use colour inten
 ### Error state  
 
 - <p class="inline-container">Error state colour<span class="colour-rect" style="--colour: #D5281B; --txt_clr: white">#D5281B</span></p>
-
+<!-- 
 ### RAG colours (Red Amber Green)
 	
 - <p class="inline-container">Red colour<span class="colour-rect" style="--colour: #DA291C; --txt_clr: white">#DA291C</span></p> 	
 - <p class="inline-container">Amber colour<span class="colour-rect" style="--colour: #ED8B00; --txt_clr: white">#ED8B00</span></p> 
 - <p class="inline-container">Green colour<span class="colour-rect" style="--colour: #006747; --txt_clr: white">#006747</span></p>
-
+!-->
+<!--
 ### Link colours 
-	
 - <p class="inline-container">Link colour<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span></p> 	
 - <p class="inline-container">Hover link colour<span class="colour-rect" style="--colour: #7C2855; --txt_clr: white">#7C2855</span></p> 
 - <p class="inline-container">Visited link colour<span class="colour-rect" style="--colour: #330072; --txt_clr: white">#330072</span></p> 
 - <p class="inline-container">Active link colour<span class="colour-rect" style="--colour: #002F5C; --txt_clr: white">#002F5C</span></p>     
-
+!-->
 ### Border 
 	
 - <p class="inline-container">Border colour<span class="colour-rect" style="--colour: #D8DDE0; --txt_clr: white">#D8DDE0</span></p>    
@@ -140,7 +137,7 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 - avoid them in data products unless they convey useful information
 - if an image is decorative, give it a null text alternative like this: (alt="") 
 
-### Product tiles
+### Product tiles and other large buttons
 - if there is a need to add an image to a product tile, ensure that it is a copyright free image that is meaningful to users, and not a screengrab of a product page
 
 ## Data Visualisations 
@@ -154,24 +151,19 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 ### Chart colours 
 We recommend to stick to no more than five different variables (colours or tints) on a graph or other chart type, otherwise your visualisation will be confusing. If you need to plot more than 5 variables, you should consider alternative ways to visualise this information.
 
-For any reasons, if we have to use more than five colours in a visualisation then use the colours listed below, in this order:
+Use the colours listed below, which have been testd for accessbilty, in this order:
 
-- <p class="inline-container">One colour chart<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span></p> 	
-- <p class="inline-container">Two colour chart<span class="colour-rect" style="--colour: #41B6E6; --txt_clr: white">#41B6E6</span></p> 
-- <p class="inline-container">Three colour chart<span class="colour-rect" style="--colour: #4C6272; --txt_clr: white">#4C6272</span></p>
-- <p class="inline-container">Four colour chart<span class="colour-rect" style="--colour: #FFB81C; --txt_clr: white">#FFB81C</span></p> 	
-- <p class="inline-container">Five colour chart<span class="colour-rect" style="--colour: #AE2573; --txt_clr: white">#AE2573</span></p> 
-- <p class="inline-container">Six colour chart<span class="colour-rect" style="--colour: #00A499; --txt_clr: white">#00A499</span></p>
-- <p class="inline-container">Seven colour chart<span class="colour-rect" style="--colour: #E317AA; --txt_clr: white">#E317AA</span></p> 	
-- <p class="inline-container">Eight colour chart<span class="colour-rect" style="--colour: #007F3B; --txt_clr: white">#007F3B</span></p> 
-- <p class="inline-container">Nine colour chart<span class="colour-rect" style="--colour: #9A6324; --txt_clr: white">#9A6324</span></p>
-- <p class="inline-container">Ten colour chart<span class="colour-rect" style="--colour: #78BE20; --txt_clr: white">#78BE20</span></p> 	
-- <p class="inline-container">Eleven colour chart<span class="colour-rect" style="--colour: #ED4F00; --txt_clr: white">#ED4F00</span></p> 
-- <p class="inline-container">Twelve colour chart<span class="colour-rect" style="--colour: #880FB8; --txt_clr: white">#880FB8</span></p> 
+- <p class="inline-container">Dark Blue<span class="colour-rect" style="--colour: #12436D; --txt_clr: white">#12436D</span></p> 	
+- <p class="inline-container">Turquoise<span class="colour-rect" style="--colour: #28A197; --txt_clr: white">#28A197</span></p> 
+- <p class="inline-container">Dark Pink<span class="colour-rect" style="--colour: #801650; --txt_clr: white">#801650</span></p>
+- <p class="inline-container">Orange<span class="colour-rect" style="--colour: #F46A25; --txt_clr: white">#F46A25</span></p> 	
+- <p class="inline-container">Dark Grey<span class="colour-rect" style="--colour: #3D3D3D; --txt_clr: white">#3D3D3D</span></p> 
+- <p class="inline-container">Light Purple<span class="colour-rect" style="--colour: #A285D1; --txt_clr: white">#A285D1</span></p> 
+
 
 ## Templates and Widgets
 
-This is a sample of an annotated image of a template. There will be guiddsance here on use of widgerts and templates in Workshop, and where possible, direct links to the templates. 
+In future versions of this guide, there will be guidance here on use of widgets and templates in Workshop, and where possible, direct links to the templates. We will also include annotated images of available templates to make them easier to work with. 
 
 The templates, widgets and code will be accessed in Foundry as usual
 
@@ -180,6 +172,9 @@ The templates, widgets and code will be accessed in Foundry as usual
 - <a href="https://www.w3.org/mission/accessibility/">W3C accessibility pages</a>
 
 - <a href="https://service-manual.nhs.uk/accessibility">NHS Design guide accessibility pages</a>
+
+#### Data visualisation
+- <a href="https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-colours-in-charts/">ONS and Civil Service reseach based data visualisation guidance</a>
 
 #### Content design
 - <a href="https://service-manual.nhs.uk/content">NHS Content Design guide</a>
