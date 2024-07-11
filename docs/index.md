@@ -151,7 +151,7 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 ### Chart colours 
 We recommend to stick to no more than five different variables (colours or tints) on a graph or other chart type, otherwise your visualisation will be confusing. If you need to plot more than 5 variables, you should consider alternative ways to visualise this information.
 
-Use the colours listed below, which have been testd for accessbilty, in this order:
+Use the colours listed below, which have been tested for accessibility, in this order:
 
 - <p class="inline-container">Dark Blue<span class="colour-rect" style="--colour: #12436D; --txt_clr: white">#12436D</span></p> 	
 - <p class="inline-container">Turquoise<span class="colour-rect" style="--colour: #28A197; --txt_clr: white">#28A197</span></p> 
@@ -174,7 +174,7 @@ The templates, widgets and code will be accessed in Foundry as usual
 - <a href="https://service-manual.nhs.uk/accessibility">NHS Design guide accessibility pages</a>
 
 #### Data visualisation
-- <a href="https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-colours-in-charts/">ONS and Civil Service reseach based data visualisation guidance</a>
+- <a href="https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-colours-in-charts/">ONS and Civil Service research based data visualisation guidance</a>
 
 #### Content design
 - <a href="https://service-manual.nhs.uk/content">NHS Content Design guide</a>
