@@ -1,8 +1,8 @@
 #Build user centred products for the Data Platform
 ##How to use this guide
-By using this guide, you can ensure that the user of your product encounters a familiar and easy-to-use interface, and will find it similar to other platform products they use.
+By using this guide, you can ensure that the user of your product sees a familiar and easy-to-use user-interface, and will find it similar to other products they use at work.
 
-It’s important to ensure that all products can be used as intended and that end users understand the interface and can get the outcome they need easily. This guide contains clear and consistent guidelines on core design elements, including colour palettes, typography, and layout structures.
+It’s important to ensure that all products can be used as intended and that end-users understand the interface and can get the outcome they need easily. This guide contains clear and consistent guidelines on core design elements, including colour palettes, typography, and layout structures.
 
 In the final version you will also find screengrabs of templates to be used in Workshop - with annotations to explain which Workshop widgets to use.
 
@@ -13,7 +13,7 @@ In the final version you will also find screengrabs of templates to be used in W
 
 - <p class="inline-container">White<span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span> Use this for labels on buttons, NHS logo, headings on NHS blue</p>
 
-Users think that when colour is used it is trying to convey information, so make sure the use of colour is intentional and consistent. Don't use colour just for decoration.
+Users think that when colour is used it is trying to convey information, so make sure the use of colour is intentional and consistent. Don't use colour just for decoration: 
 
 - see the section on Guidance on use of colour - to ensure consistent experience for users across all products 
 - a proportion of users cannot differentiate different colours. To communicate with people who cannot see well or distinguish colours, you may need to: 
@@ -22,7 +22,7 @@ Users think that when colour is used it is trying to convey information, so make
     - use more than one visual cue, for example, text and an icon as well as colour
 
 ###2.	Type sizes  
-- the Workshop tool uses type sizes Small, Medium and Large. We believe that the “small” size is unreadable for many users, therefore would recommend only using Medium and Large
+- the Workshop tool uses type sizes Small, Medium and Large. We believe that the “small” size is unreadable for many users.
 - if specifying text in points or pixels, the optimal default font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.
 
 ###3.	Accessibility
@@ -31,7 +31,7 @@ Users think that when colour is used it is trying to convey information, so make
 - use the NHS <a href="https://nhsdigital.github.io/accessibility-checklist/">accessibility checklist</a> to carry out an initial Web Content Accessibility Guidelines (WCAG) evaluation
  
 ###4.	Headings  
-- make them meaningful, let readers know where they are and what they are looking at 
+- make headings meaningful, let readers know where they are and what they are looking at 
 - use “Sentence Case” for headings  
 - make proper use of the Semantic page structure used in Workshop to make it readable by screen-readers
 
@@ -55,7 +55,9 @@ Users find colours indicative of meaning, therefore, we need to use colour inten
 ### Buttons  
 		
 - <p class="inline-container">Button colour<span class="colour-rect" style="--colour: #007F3B; --txt_clr: white">#007F3B</span></p>
-- <p class="inline-container">Secondary button colour<span class="colour-rect" style="--colour: #4C6272; --txt_clr: white">#4C6272</span></p>  
+<p>A primary button is for the user’s main action on a page. There may not be a main action and in that case use the secondary or tertiary buttons</p>
+- <p class="inline-container">Secondary button colour<span class="colour-rect" style="--colour: #4C6272; --txt_clr: white">#4C6272</span></p> 
+<p>Use a secondary button on pages that have more than 1 action or when users aren't noticing standard link text.</p> 
 - <p class="inline-container">Button labels <span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span></p>
 
 ### NHS blue-grey background
@@ -72,13 +74,13 @@ Users find colours indicative of meaning, therefore, we need to use colour inten
 - <p class="inline-container">Amber colour<span class="colour-rect" style="--colour: #ED8B00; --txt_clr: white">#ED8B00</span></p> 
 - <p class="inline-container">Green colour<span class="colour-rect" style="--colour: #006747; --txt_clr: white">#006747</span></p>
 !-->
-<!--
+
 ### Link colours 
 - <p class="inline-container">Link colour<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span></p> 	
 - <p class="inline-container">Hover link colour<span class="colour-rect" style="--colour: #7C2855; --txt_clr: white">#7C2855</span></p> 
 - <p class="inline-container">Visited link colour<span class="colour-rect" style="--colour: #330072; --txt_clr: white">#330072</span></p> 
 - <p class="inline-container">Active link colour<span class="colour-rect" style="--colour: #002F5C; --txt_clr: white">#002F5C</span></p>     
-!-->
+
 ### Border 
 	
 - <p class="inline-container">Border colour<span class="colour-rect" style="--colour: #D8DDE0; --txt_clr: white">#D8DDE0</span></p>    
@@ -97,16 +99,16 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 - do not assume our audience will be familiar with the topic 
 
 ### When to use Capital letters
-- use “Sentence Case” for headings (capital letter at the start of the sentence only, except for proper nouns e.g. names, company names)
+- use “Sentence case” for headings (capital letter at the start of the sentence only, except for proper nouns e.g. names, company names)
 - use “Title case” for the names of organisations, training programmes, schemes, and specialties (Capital letters for each word in a title)
 
 ### Tone of voice
-- use the active voice - "find a pharmacy" rather than "a pharmacy can be found" 
+- use the active voice - "Book an operating theatre" rather than "an operating theatre can be booked" 
 - there’s usually no need to say "please" or "please note"
 - there’s usually no need to say thank you
 - say "sorry" if something serious has gone wrong - for example, the service has stopped working completely
 
-## Numbers, Dates and time
+## Numbers, dates and time
 - we use numerals for numbers (including 1 and 2)
 - for numbers over 999, use a comma for clarity (for example, 1,000)
 - always start with zero for values less than 1 (for example: 0.75 not .75)
@@ -117,7 +119,7 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 - always use UK format for dates, do not use American format
 - use this format for dates: 6 August 2018
 - if you need to include the day of the week, use this format: Wednesday 6 August 2018
-- short dates should be formatted DD/MM/YYYY 
+- short dates should be formatted DD-Mmm-YYYY: 6-Aug-2018 
 
 ### Time 
 - check what time format the users and Trust use, but it's likely to be 24 hour clock
@@ -125,6 +127,26 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 
 ### Other numbers
 - when showing the age of a patient it is important to be accurate and express the age in years and months not decimals
+
+### Typography
+- do not use italics or underlining (except for links, which are underlined by default). Use bold sparingly.  
+- do not use bold to emphasise text, instead use front-loaded sentences, headers, or bullet points 
+
+## Links and buttons 
+- when placing links in body text, hyperlink the title of the content only 
+- do not hyperlink the verb, the preceding article (the, a, our and so on) or the punctuation after the anchor text 
+- make your link descriptive and clear. Tell users where the link will take them 
+- do not hyperlink headings or subheadings 
+- use meaningful links, do not say “click here” 
+- if a link opens in a new screen, say “opens in a new window”
+- do not use "raw" or "naked" URLs. These will be read out in full by screen readers
+- links should open in the same window, unless 
+    - You are providing help information, and you don’t want to take the user away from the process they are in 
+    - The user is on a login screen when you don’t want to take them away from the login process. In these situations, “opens in a new window” needs to be included in the link text. 
+
+## Tool Tips
+- the tooltip must be usable with both keyboards and screen readers
+- where possible, ensure that the tool tip does not obscure what the user is focused on
 
 ## Images 
 ### Informative images
@@ -138,7 +160,7 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 - if an image is decorative, give it a null text alternative like this: (alt="") 
 
 ### Product tiles and other large buttons
-- if there is a need to add an image to a product tile, ensure that it is a copyright free image that is meaningful to users, and not a screengrab of a product page
+- if there is a need to add an image to a large button or "tile", ensure that it is a copyright free image that is meaningful to users, and not a screengrab of a product page
 
 ## Data Visualisations 
 - every chart or other visualization must have a title. This benefits all users, and particularly those using a screen-reader. [type size medium]
@@ -149,7 +171,7 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 - include a source so that a user can track back to the original data
 
 ### Chart colours 
-We recommend to stick to no more than five different variables (colours or tints) on a graph or other chart type, otherwise your visualisation will be confusing. If you need to plot more than 5 variables, you should consider alternative ways to visualise this information.
+We recommend to stick to no more than 6 different variables (colours or tints) on a graph or other chart type, otherwise your visualisation will be confusing. If you need to plot more than 6 variables, you should consider alternative ways to visualise this information.
 
 Use the colours listed below, which have been tested for accessibility, in this order:
 
@@ -160,9 +182,16 @@ Use the colours listed below, which have been tested for accessibility, in this 
 - <p class="inline-container">Dark Grey<span class="colour-rect" style="--colour: #3D3D3D; --txt_clr: white">#3D3D3D</span></p> 
 - <p class="inline-container">Light Purple<span class="colour-rect" style="--colour: #A285D1; --txt_clr: white">#A285D1</span></p> 
 
+### Gridlines 
+- most chart types should have gridlines on at least one axis 
+- all numeric axes, except for those showing time or bands of values, should have gridlines 
+- time axes should have tick marks, but not gridlines 
+- axes showing discrete categories should not have tick marks or gridlines 
+- the line at the zero point on your axis should have more emphasis than standard gridlines 
+- gridlines should be at sensible, round-number, intervals 
+- gridlines should always be labelled with the value they represent 
 
 ## Templates and Widgets
-
 In future versions of this guide, there will be guidance here on use of widgets and templates in Workshop, and where possible, direct links to the templates. We will also include annotated images of available templates to make them easier to work with. 
 
 The templates, widgets and code will be accessed in Foundry as usual
