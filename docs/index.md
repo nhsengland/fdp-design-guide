@@ -39,13 +39,17 @@ Users think that when colour is used it is trying to convey information, so make
 - make links meaningful, do not say “click here”. Provide context where it will take the user
 - when a link will open a new tab for the user, add the words “opens in new tab” (or window) to the line
 
-
 ##Guidance on use of colour 
-Users find colours indicative of meaning, therefore, we need to use colour intentionally and consistently
+Users find colours indicative of meaning, therefore, we need to use colour intentionally and consistently. Don't use colour just for decoration.
 
 - **Accessibility:** make sure that what the colour is "saying" is available in other ways. To communicate with people who cannot see well or distinguish colours, you may need to:
     - word things differently 
-    - use more than one visual cue, for example, text and an icon as well as colour 
+    - use more than one visual cue, for example, text and an icon as well as colour
+    - ensure that the contrast between colours is high enough using a testing tool 
+        - <a href="https://webaim.org/resources/contrastchecker/">WebAIM's colour contrast checker</a> (opens in a new window)
+        - <a href="https://colororacle.org/">Color Oracle</a> (free colour-blindness simulator) (opens in a new window)
+        - <a href="https://silktide.com/>Silktide</a> (opens in a new window)
+ 
 
 ### Core colours 
 	
