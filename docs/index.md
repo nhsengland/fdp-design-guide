@@ -48,7 +48,7 @@ Users find colours indicative of meaning, therefore, we need to use colour inten
     - ensure that the contrast between colours is high enough using a testing tool 
         - <a href="https://webaim.org/resources/contrastchecker/">WebAIM's colour contrast checker</a> (opens in a new window)
         - <a href="https://colororacle.org/">Color Oracle</a> (free colour-blindness simulator) (opens in a new window)
-        - <a href="https://silktide.com/>Silktide</a> (opens in a new window)
+        - <a href="https://silktide.com/">Silktide</a> (opens in a new window)
  
 
 ### Core colours 
