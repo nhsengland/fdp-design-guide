@@ -1,10 +1,9 @@
 #Build user centred products for the Data Platform
 ##How to use this guide
-By using this guide, you can ensure that the user of your product sees a familiar and easy-to-use user-interface, and will find it similar to other products they use at work.
+By using this guide, you can ensure that the user of your product sees a familiar and easy-to-use interface, and will find it similar to other products they use.
 
-It’s important to ensure that all products can be used as intended and that end-users understand the interface and can get the outcome they need easily. This guide contains clear and consistent guidelines on core design elements, including colour palettes, typography, and layout structures.
+It’s important to ensure that all products can be used as intended and that end users understand the interface and can get the outcome they need easily. This guide contains clear and consistent guidelines on core design elements, including colour palettes, typography, and layout structures.
 
-In the final version you will also find screengrabs of templates to be used in Workshop - with annotations to explain which Workshop widgets to use.
 
 ##Top five things to consider
 ###1. Core colours
@@ -15,14 +14,15 @@ In the final version you will also find screengrabs of templates to be used in W
 
 Users think that when colour is used it is trying to convey information, so make sure the use of colour is intentional and consistent. Don't use colour just for decoration: 
 
-- see the section on Guidance on use of colour - to ensure consistent experience for users across all products 
-- a proportion of users cannot differentiate different colours. To communicate with people who cannot see well or distinguish colours, you may need to: 
-    - ensure that the contrast between colours is high enough using a colour tool
+See the section on Guidance on use of colour - to ensure consistent experience for users across all products 
+
+A proportion of users cannot differentiate different colours. To communicate with people who cannot see well or distinguish colours, you may need to: 
+    - ensure that the contrast between colours is high enough using a colour tool, for example <a href="https://silktide.com/">Silktide</a>
     - word things differently
     - use more than one visual cue, for example, text and an icon as well as colour
 
 ###2.	Type sizes  
-- the Workshop tool uses type sizes Small, Medium and Large. We believe that the “small” size is unreadable for many users.
+- the Workshop tool uses type sizes small, medium and large. We believe that the “small” size is unreadable for many users.
 - if specifying text in points or pixels, the optimal default font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.
 
 ###3.	Accessibility
@@ -46,9 +46,9 @@ Users find colours indicative of meaning, therefore, we need to use colour inten
     - word things differently 
     - use more than one visual cue, for example, text and an icon as well as colour
     - ensure that the contrast between colours is high enough using a testing tool 
-        - <a href="https://webaim.org/resources/contrastchecker/">WebAIM's colour contrast checker</a> (opens in a new window)
-        - <a href="https://colororacle.org/">Color Oracle</a> (free colour-blindness simulator) (opens in a new window)
-        - <a href="https://silktide.com/">Silktide</a> (opens in a new window)
+        - <a href="https://webaim.org/resources/contrastchecker/">WebAIM's colour contrast checker</a>
+        - <a href="https://colororacle.org/">Color Oracle</a> (free colour-blindness simulator)
+        - <a href="https://silktide.com/">Silktide</a>
  
 
 ### Core colours 
@@ -104,7 +104,7 @@ Our content is factual, neutral and unambiguous. We do not use metaphors - we sa
 
 ### When to use Capital letters
 - use “Sentence case” for headings (capital letter at the start of the sentence only, except for proper nouns e.g. names, company names)
-- use “Title case” for the names of organisations, training programmes, schemes, and specialties (Capital letters for each word in a title)
+- use “Title case” for the names of organisations, training programmes, schemes, and specialties (capital letters for each word in a title)
 
 ### Tone of voice
 - use the active voice - "Book an operating theatre" rather than "an operating theatre can be booked" 
