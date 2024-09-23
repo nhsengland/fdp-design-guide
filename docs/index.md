@@ -22,11 +22,11 @@ A proportion of users cannot differentiate different colours. To communicate wit
     - use more than one visual cue, for example, text and an icon as well as colour
 
 ###2.	Type sizes  
-- the Workshop tool uses type sizes small, medium and large. We believe that the “small” size is unreadable for many users, therefore only use medium and large.
-- if specifying text in points or pixels, the optimal default font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px.
+- the Workshop tool uses type sizes small, medium and large. We believe that the “small” size is unreadable for many users, therefore only use medium and large
+- if specifying text in points or pixels, the optimal default font size for maximum readability for most users is 19px on large screens and 16px on small screens. Font size should not be smaller than size 10px
 
 ###3.	Accessibility
-- In the UK, almost 1 in 5 people have a disability of some kind. Many more have temporary or situational disabilities, like an illness or injury. When you're working on NHS internal services, think about how people with different needs might use what you're making.  
+- in the UK, almost 1 in 5 people have a disability of some kind. Many more have temporary or situational disabilities, like an illness or injury. When you're working on NHS internal services, think about how people with different needs might use what you're making  
 - set up automated accessibility testing and fix issues you identify
 - use the NHS <a href="https://nhsdigital.github.io/accessibility-checklist/">accessibility checklist</a> to carry out an initial Web Content Accessibility Guidelines (WCAG) evaluation
  
