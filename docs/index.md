@@ -211,3 +211,8 @@ The templates, widgets and code will be accessed in Foundry as usual
 
 #### Content design
 - <a href="https://service-manual.nhs.uk/content">NHS Content Design guide</a>
+
+#### About
+- Author - Heather Shaw, Service Design Assistant. John-Henry Barac, Senior Service Designer
+- Last updated: 23/09/2024
+- Please send any enquiries or feedback to Nishad Shamnadh, nishad.shamnadh1@nhs.net
