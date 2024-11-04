@@ -17,4 +17,10 @@ h2{
 
 .md-nav__link hover{
   color: #005EB8 !important;
+  text-decoration: underline;
+}
+
+.md-nav__list
+{
+  color: #005EB8 !important;
 }
