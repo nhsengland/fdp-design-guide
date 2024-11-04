@@ -78,7 +78,6 @@
   }
   .md-nav__link--active{
     text-decoration: underline !important;
-    border-left: 3px #005EB8 solid !important;
   }
 /*
   .md-nav__list a
