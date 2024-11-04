@@ -14,3 +14,7 @@ h2{
       font-weight: 600 !important;
       font-size: 36px !important;
 }
+
+.md-nav__link hover{
+  color: #005EB8 !important;
+}
