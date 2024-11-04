@@ -4,7 +4,7 @@
     gap: 0.3125rem;
     align-items: center;
   }
- 
+
   .inline-container-pill {
     display: flex;
     gap: 0.3125rem;
@@ -15,7 +15,7 @@
     padding-left: 9px;
     padding-right: 9px;
   }
- 
+
   .inline-colour-square {
     display: flex;
     color: white;
@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: center;
   }
- 
+
   /* square text vesion*/
   .colour-rect {
     display: flex;
@@ -35,4 +35,11 @@
     height: 40px;
     align-items: center;
     justify-content: center;
+  }
+
+
+  :root {
+    --md-primary-fg-color:        #EE0F0F;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
   }
