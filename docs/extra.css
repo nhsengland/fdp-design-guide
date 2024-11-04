@@ -36,7 +36,9 @@
     align-items: center;
     justify-content: center;
   }
-
-.md-header--shadow{
-  background-color:#005EB8 !important;
-}
+  .md-header--shadow{
+    background-color:#005EB8 !important;
+  }
+  .md-header{
+    background-color:#005EB8 !important;
+  }
