@@ -42,3 +42,14 @@
   .md-header{
     background-color:#005EB8 !important;
   }
+
+  .app-colour-list_page_background {
+      background-color: #F0F4F5;
+      border: 1px solid rgba(0, 0, 0, 0);
+      border-radius: 50%;
+      display: inline-block;
+      height: 40px;
+      margin-right: 8px;
+      vertical-align: middle;
+      width: 40px;
+  }
