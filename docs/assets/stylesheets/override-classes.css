@@ -19,6 +19,9 @@ h2{
   color: #005EB8 !important;
   text-decoration: underline;
 }
+.md-nav__link--active{
+  text-decoration: underline !important;
+}
 /*
 .md-nav__list a
 {
