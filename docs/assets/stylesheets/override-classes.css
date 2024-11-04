@@ -10,3 +10,7 @@ html, body {
 .md-nav{
   font-size: 16px !important;
 }
+h2{
+      font-weight: 600 !important;
+      font-size: 36px !important;
+}
