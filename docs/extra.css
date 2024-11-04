@@ -67,6 +67,11 @@
         font-size: 36px !important;
   }
 
+  h3{
+        font-weight: 600 !important;
+        font-size: 26px !important;
+  }
+
    .md-nav__item a:hover{
     color: #005EB8 !important;
     text-decoration: underline;
