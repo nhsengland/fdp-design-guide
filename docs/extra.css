@@ -53,3 +53,7 @@
       vertical-align: middle;
       width: 40px;
   }
+
+  html {
+      font-family: Frutiger W01, Arial, Sans-serif;
+  }
