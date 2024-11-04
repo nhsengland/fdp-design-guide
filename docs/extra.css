@@ -55,7 +55,7 @@
   }
 
   html, body {
-      font-family: "Frutiger", Arial, Sans-serif;
+      font-family: "Frutiger", Arial, Sans-serif !important;
   }
 
   .md-nav{

@@ -5,7 +5,7 @@
   background-color:#005EB8 !important;
 }
 html, body {
-  font-family: "Frutiger", Arial, Sans-serif;
+  font-family: "Frutiger", Arial, Sans-serif !important;
 }
 .md-nav{
   font-size: 16px !important;
