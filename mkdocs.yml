@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 plugins:
   - search
 nav:
-  - Home: index.md
+  - Home: index.html
 
 theme:
   name: material
