@@ -66,3 +66,13 @@
         font-weight: 600 !important;
         font-size: 36px !important;
   }
+
+  .md-nav__link hover{
+    color: #005EB8 !important;
+    text-decoration: underline;
+  }
+
+  .md-nav__list a
+  {
+    color: #005EB8 !important;
+  }

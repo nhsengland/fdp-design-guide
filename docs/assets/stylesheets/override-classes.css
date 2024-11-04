@@ -20,7 +20,7 @@ h2{
   text-decoration: underline;
 }
 
-.md-nav__list
+.md-nav__list a
 {
   color: #005EB8 !important;
 }
