@@ -117,6 +117,9 @@ border-top: 4px solid #005eb8 !important;
 .md-footer-meta{
   background-color: #d8dde0 !important;
 }
+.md-copyright{
+  color: #003087 !important;
+}
 /*
   .md-nav__list a
   {
