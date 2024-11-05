@@ -126,6 +126,11 @@ border-top: 4px solid #005eb8 !important;
 .md-sidebar__scrollwrap{
   scrollbar-color: #005EB8 !important;
 }
+.md-search__input{
+  border: 1px solid #fff !important;
+font-size: 16px !important;
+height: 40px !important;
+}
 /*
   .md-nav__list a
   {
