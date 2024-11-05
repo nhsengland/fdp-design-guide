@@ -120,6 +120,10 @@ border-top: 4px solid #005eb8 !important;
 .md-copyright{
   color: #4c6272 !important;
 }
+
+.md-sidebar__scrollwrap{
+  scrollbar-color: #005EB8 !important;
+}
 /*
   .md-nav__list a
   {
