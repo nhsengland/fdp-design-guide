@@ -100,7 +100,9 @@
   color: #005EB8;
   text-decoration: underline;
 }
-
+.md-nav__title{
+  color:#000000de;
+}
 /*
   .md-nav__list a
   {
