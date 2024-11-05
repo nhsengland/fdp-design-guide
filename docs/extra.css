@@ -78,6 +78,7 @@
   }
   .md-nav__link--active{
     text-decoration: underline !important;
+    font-weight: 600 !important;
   }
 
   .app-colour-list__swatch--border {
