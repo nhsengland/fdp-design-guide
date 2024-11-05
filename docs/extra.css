@@ -110,6 +110,10 @@
   color: #212B32 !important;
   font-size: 40px;
 }
+md-footer{
+  background-color: #d8dde0 !important;
+border-top: 4px solid #005eb8 !important;
+}
 /*
   .md-nav__list a
   {
