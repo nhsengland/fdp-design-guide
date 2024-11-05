@@ -87,6 +87,10 @@
   .md-typeset{
     font-size: 19px !important;
   }
+  .md-nav{
+    color: #005EB8 !important;
+  }
+
 /*
   .md-nav__list a
   {
