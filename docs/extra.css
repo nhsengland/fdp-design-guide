@@ -95,6 +95,12 @@
 .md-nav__link--passed{
   color: #005EB8 !important;
 }
+
+.page-body-link a:link {
+  color: #005EB8;
+  text-decoration: underline;
+}
+
 /*
   .md-nav__list a
   {
