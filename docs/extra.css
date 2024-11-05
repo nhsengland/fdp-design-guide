@@ -79,6 +79,10 @@
   .md-nav__link--active{
     text-decoration: underline !important;
   }
+
+  .app-colour-list__swatch--border {
+      border: 1px solid #d8dde0;
+  }
 /*
   .md-nav__list a
   {
