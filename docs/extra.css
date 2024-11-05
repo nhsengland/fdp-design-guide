@@ -141,6 +141,9 @@ background: #fff;
 .md-icon svg{
   color: #005EB8 !important;
 }
+.md-source__icon{
+  color: #fff !important;
+}
 /*
   .md-nav__list a
   {
