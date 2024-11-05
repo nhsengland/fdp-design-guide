@@ -83,6 +83,10 @@
   .app-colour-list__swatch--border {
       border: 1px solid #d8dde0;
   }
+
+  .md-typeset{
+    font-size: 19px !important;
+  }
 /*
   .md-nav__list a
   {
