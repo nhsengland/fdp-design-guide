@@ -170,7 +170,7 @@ table {
     border-spacing: 0;
     vertical-align: top;
 }
-th
+th, td
 {
   float: left;
   padding-right: 20px;
