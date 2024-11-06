@@ -206,6 +206,12 @@ tr
     float: left;
   }
 
+
+.remove-btmargin h3{
+  margin-bottom: 0px !important;
+}
+
+
 /*
   .md-nav__list a
   {
