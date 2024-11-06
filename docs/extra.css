@@ -162,7 +162,7 @@ background: #fff;
     vertical-align: middle;
 }
 .md-typeset code{
-  background-color: none !important;
+  background-color: #f0f4f5 !important;
 }
 /*
   .md-nav__list a
