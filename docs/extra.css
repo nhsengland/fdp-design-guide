@@ -161,6 +161,9 @@ background: #fff;
     padding-top: 0;
     vertical-align: middle;
 }
+.md-typeset code{
+  background-color: none !important;
+}
 /*
   .md-nav__list a
   {
