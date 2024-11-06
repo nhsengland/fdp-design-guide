@@ -145,6 +145,17 @@ background: #fff;
 .md-source__icon{
   color: #fff !important;
 }
+
+.app-colour-list__swatch {
+    background-color: #f0f4f5;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    height: 40px;
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 40px;
+}
 /*
   .md-nav__list a
   {
