@@ -5,21 +5,20 @@
 
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta http-equiv='cache-control' content='no-cache'>
-      <meta http-equiv='expires' content='0'>
-      <meta http-equiv='pragma' content='no-cache'>
+
 
 
       <link rel="icon" href="images/favicon/favicon.ico">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+<link href="https://fonts.cdnfonts.com/css/frutiger" rel="stylesheet">
 
 
-
-        <title>Federated data platform | Design guide</title>
+        <title>Data platform | FDP Design Guide</title>
 
 
 
       <link rel="stylesheet" href="assets/stylesheets/main.975780f9.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/override-classes.css">
 
 
         <link rel="stylesheet" href="assets/stylesheets/palette.2505c338.min.css">
@@ -39,7 +38,7 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Arial";--md-code-font:"Roboto Mono"}</style>
+        <!-- <style>:root{--md-text-font:"Arial";--md-code-font:"Roboto Mono"}</style> -->
 
 
 
@@ -70,7 +69,7 @@
     <div data-md-component="skip">
 
 
-        <a href="#build-user-centred-products-for-FDP" class="md-skip">
+        <a href="#build-user-centred-products-for-the-data-platform" class="md-skip">
           Skip to content
         </a>
 
@@ -84,7 +83,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Federated data platform | Design guide" class="md-header__button md-logo" aria-label="Federated data platform | Design guide" data-md-component="logo">
+    <a href="." title="Data platform | Developers design guide" class="md-header__button md-logo" aria-label="Data platform | Developers design guide" data-md-component="logo">
 
   <img src="images/nhs-blue-on-white.jpg" alt="logo">
 
@@ -96,13 +95,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-           Federated data platform | Design guide
+          Federated Data Platform Design Guide <!--  Data platform | Developers design guide -->
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
 
-              Home
+              Federated Data Platform Design Guide
 
           </span>
         </div>
@@ -152,7 +151,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    Design guide
+    Design guide page test
   </div>
 </a>
       </div>
@@ -183,12 +182,12 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Federated data platform | Design guide" class="md-nav__button md-logo" aria-label="Federated data platform | Design guide" data-md-component="logo">
+    <a href="." title="Data platform | Developers design guide" class="md-nav__button md-logo" aria-label="Data platform | Developers design guide" data-md-component="logo">
 
   <img src="images/nhs-blue-on-white.jpg" alt="logo">
 
     </a>
-    Federated data platform | Design guide
+    <!-- Data platform | Developers design guide -->
   </label>
 
     <div class="md-nav__source">
@@ -227,7 +226,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
 
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="." class="md-nav__link">
         Home
       </a>
 
@@ -560,20 +559,19 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
 
-<!-- Hardik -->
+
 
   <a href="https://github.com/baracoffice/pagetest/edit/main/docs/index.md" title="Edit this page" class="md-content__button md-icon">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
-<h1 id="build-user-centred-products-for-the-data-platform">Build user centred products for the Data Platform - testing    </h1>
+
+<h1 id="build-user-centred-products-for-the-data-platform">Build user-centred products for the Federated Data Platform</h1>
 <h2 id="how-to-use-this-guide">How to use this guide</h2>
-
-<p>By using this guide, you can ensure that the user of your product sees a familiar and easy-to-use interface, and will find it similar to other products.</p>
-<p>It’s important to ensure that all products can be used as intended and that users understand the interface and can get the outcome they need easily. This guide contains clear and consistent guidelines on core design elements, including colour palettes, typography, and layout structures.</p>
-<!-- <p>In the final version you will also find screengrabs of templates to be used in Workshop - with annotations to explain which Workshop widgets to use.</p> -->
-
+<p>By using this guide, you can ensure that the user of your product sees a familiar and easy-to-use user-interface, and will find it similar to other products they use at work.</p>
+<p>It’s important to ensure that all products can be used as intended and that end-users understand the interface and can get the outcome they need easily. This guide contains clear and consistent guidelines on core design elements, including colour palettes, typography, and layout structures.</p>
+<p>In the final version you will also find screengrabs of templates to be used in Workshop - with annotations to explain which Workshop widgets to use.</p>
 <h2 id="top-five-things-to-consider">Top five things to consider</h2>
 <h3 id="1-core-colours">1. Core colours</h3>
 <ul>
@@ -581,14 +579,14 @@
 <p><p class="inline-container">NHS Blue<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span> Use this for logos, straps</p></p>
 </li>
 <li>
-<p><p class="inline-container">White<span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span> Use this for labels on buttons, NHS logo, headings on NHS blue</p></p>
+<p><p class="inline-container">White<span class="colour-rect app-colour-list__swatch--border" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span> Use this for labels on buttons, NHS logo, headings on NHS blue</p></p>
 </li>
 </ul>
 <p>Users think that when colour is used it is trying to convey information, so make sure the use of colour is intentional and consistent. Don't use colour just for decoration: </p>
 <ul>
-<p>See the section on Guidance on use of colour - to ensure consistent experience for users across all products </p>
-<p>A proportion of users cannot differentiate different colours. To communicate with people who cannot see well or distinguish colours, you may need to: <ul>
-<li>ensure that the contrast between colours is high enough using a colour tool, for example <a href="https://silktide.com/">Silktide</a></li>
+<li>see the section on Guidance on use of colour - to ensure consistent experience for users across all products </li>
+<li>a proportion of users cannot differentiate different colours. To communicate with people who cannot see well or distinguish colours, you may need to: <ul>
+<li>ensure that the contrast between colours is high enough using a colour tool</li>
 <li>word things differently</li>
 <li>use more than one visual cue, for example, text and an icon as well as colour</li>
 </ul>
@@ -601,21 +599,20 @@
 </ul>
 <h3 id="3-accessibility">3.   Accessibility</h3>
 <ul>
-<li>In the UK, almost 1 in 5 people have a disability of some kind. Many more have temporary or situational disabilities, like an illness or injury. When you're working on NHS internal services, think about how people with different needs might use what you're making  </li>
-<!--set up automated accessibility testing and fix issues you identify-->
-<li>use the NHS <a href="https://nhsdigital.github.io/accessibility-checklist/">accessibility checklist</a> to carry out an initial Web Content Accessibility Guidelines (WCAG) evaluation</li>
+<li>In the UK, almost 1 in 5 people have a disability of some kind. Many more have temporary or situational disabilities, like an illness or injury. When you're working on NHS internal services, think about how people with different needs might use what you're making.  </li>
+<li>set up automated accessibility testing and fix issues you identify</li>
+<li class="page-body-link">use the NHS <a href="https://nhsdigital.github.io/accessibility-checklist/">accessibility checklist (opens in a new window)</a> to carry out an initial Web Content Accessibility Guidelines (WCAG) evaluation</li>
 </ul>
 <h3 id="4-headings">4.   Headings</h3>
 <ul>
 <li>make headings meaningful, let readers know where they are and what they are looking at </li>
 <li>use “Sentence Case” for headings  </li>
-<li>make proper use of the semantic page structure used in Workshop to make it readable by screen-readers</li>
+<li>make proper use of the Semantic page structure used in Workshop to make it readable by screen-readers</li>
 </ul>
 <h3 id="5-links">5.   Links</h3>
 <ul>
-<li>links should open in the same window </li>
 <li>make links meaningful, do not say “click here”. Provide context where it will take the user</li>
-<li>when a link will open a new tab or window, add the words “opens in new tab” (or window)</li>
+<li>when a link will open a new tab for the user, add the words “opens in new tab” (or window) to the line</li>
 </ul>
 <h2 id="guidance-on-use-of-colour">Guidance on use of colour</h2>
 <p>Users find colours indicative of meaning, therefore, we need to use colour intentionally and consistently. Don't use colour just for decoration.</p>
@@ -624,20 +621,142 @@
 <li>word things differently </li>
 <li>use more than one visual cue, for example, text and an icon as well as colour</li>
 <li>ensure that the contrast between colours is high enough using a testing tool <ul>
-<li><a href="https://webaim.org/resources/contrastchecker/">WebAIM's colour contrast checker</a> (opens in a new window)</li>
-<li><a href="https://colororacle.org/">Color Oracle</a> (free colour-blindness simulator) (opens in a new window)</li>
-<li><a href="https://silktide.com/">Silktide</a> (opens in a new window)</li>
+<li class="page-body-link"><a href="https://webaim.org/resources/contrastchecker/" target="_blank">WebAIM's colour contrast checker (opens in a new window)</a></li>
+<li class="page-body-link"><a href="https://colororacle.org/" target="_blank">Color Oracle (free colour-blindness simulator) (opens in a new window)</a></li>
+<li class="page-body-link"><a href="https://silktide.com/" target="_blank">Silktide (opens in a new window)</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
+
 <h3 id="core-colours">Core colours</h3>
-<ul>
+
+<table class="app-colour-list" summary="Table of main colours">
+    <tbody>
+<!--
+      <tr class="app-colour-list__row">
+        <td colspan="3" class="remove-btmargin">
+          <h3 id="core-colours">Core colours</h3>
+        </td>
+      </tr> -->
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch app-colour-list__swatch--border" style="background-color:#005EB8"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>NHS Blue use this for logos, straps</span>
+        </td>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#005EB8</span>
+        </td>
+      </tr>
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#FFFFFF"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>White</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#FFFFFF</span>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+  <h3 id="buttons">Buttons</h3>
+<table class="app-colour-list" summary="Table of main colours">
+    <tbody>
+
+      <!-- <tr class="app-colour-list__row">
+        <td colspan="3" class="remove-btmargin">
+          <h3 id="buttons">Buttons</h3>
+        </td>
+      </tr> -->
+
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#007F3B"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour lft-align">
+          <span>Button colour</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour lft-align">
+          <span>#007F3B</span>
+        </td>
+      </tr>
+
+
+      <tr class="app-colour-list__row">
+        <td colspan="3">
+          <span>A primary button is for the user’s main action on a page. There may not be a main action and in that case use the secondary or tertiary buttons</span>
+        </td>
+      </tr>
+
+      <tr class="app-colour-list__row">
+        <td colspan="3">
+        </td>
+      </tr>
+
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#4C6272"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour lft-align">
+          <span>Secondary button colour</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour lft-align">
+          <span>#4C6272</span>
+        </td>
+      </tr>
+
+
+      <tr class="app-colour-list__row">
+        <td colspan="3">
+          <span>Use a secondary button on pages that have more than 1 action or when users aren't noticing standard link text.</span>
+        </td>
+      </tr>
+
+      <tr class="app-colour-list__row">
+        <td colspan="3">
+
+        </td>
+      </tr>
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch app-colour-list__swatch--border" style="background-color:#FFFFFF"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour lft-align">
+          <span>Button labels</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour lft-align">
+          <span>#FFFFFF</span>
+        </td>
+      </tr>
+
+
+
+    </tbody>
+  </table>
+
+
+
+
+<!-- <ul>
 <li><p class="inline-container">NHS Blue<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span> Use this for logos, straps</p>   </li>
-<li><p class="inline-container">White<span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span></p></li>
-</ul>
-<h3 id="buttons">Buttons</h3>
+<li><p class="inline-container">White<span class="colour-rect app-colour-list__swatch--border" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span></p></li>
+</ul> -->
+<!-- <h3 id="buttons">Buttons</h3>
 <ul>
 <li><p class="inline-container">Button colour<span class="colour-rect" style="--colour: #007F3B; --txt_clr: white">#007F3B</span></p></li>
 </ul>
@@ -646,16 +765,18 @@
 <li><p class="inline-container">Secondary button colour<span class="colour-rect" style="--colour: #4C6272; --txt_clr: white">#4C6272</span></p> </li>
 </ul>
 <p>Use a secondary button on pages that have more than 1 action or when users aren't noticing standard link text.</p>
-<p>- <p class="inline-container">Button labels <span class="colour-rect" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span></p></p>
-<h3 id="nhs-blue-grey-background">NHS blue-grey background</h3>
+<p class="inline-container">- Button labels <span class="colour-rect app-colour-list__swatch--border" style="--colour: #FFFFFF; --txt_clr: black">#FFFFFF</span></p> -->
+<!--<h3 id="nhs-blue-grey-background">NHS blue-grey background</h3>
 <ul>
-<li><p class="inline-container">Page background<span class="colour-rect" style="--colour: #F0F4F5; --txt_clr: black">#F0F4F5</span></p></li>
+<li>
+
+  <p class="inline-container">Page background<span class="colour-rect app-colour-list__swatch--border" style="--colour: #F0F4F5; --txt_clr: black">#F0F4F5</span></p></li>
 </ul>
 <h3 id="error-state">Error state</h3>
 <ul>
 <li><p class="inline-container">Error state colour<span class="colour-rect" style="--colour: #D5281B; --txt_clr: white">#D5281B</span></p></li>
 </ul>
-<!--
+
 ### RAG colours (Red Amber Green)
 
 - <p class="inline-container">Red colour<span class="colour-rect" style="--colour: #DA291C; --txt_clr: white">#DA291C</span></p>
@@ -663,18 +784,192 @@
 - <p class="inline-container">Green colour<span class="colour-rect" style="--colour: #006747; --txt_clr: white">#006747</span></p>
 !-->
 
-<h3 id="link-colours">Link colours</h3>
-<ul>
+<!-- <h3 id="link-colours">Link colours</h3> -->
+<!-- <ul>
 <li><p class="inline-container">Link colour<span class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</span></p>   </li>
 <li><p class="inline-container">Hover link colour<span class="colour-rect" style="--colour: #7C2855; --txt_clr: white">#7C2855</span></p> </li>
 <li><p class="inline-container">Visited link colour<span class="colour-rect" style="--colour: #330072; --txt_clr: white">#330072</span></p> </li>
 <li><p class="inline-container">Active link colour<span class="colour-rect" style="--colour: #002F5C; --txt_clr: white">#002F5C</span></p>     </li>
-</ul>
-<h3 id="border">Border</h3>
+</ul> -->
+
+<h3 id="nhs-blue-grey-background">NHS blue-grey background</h3>
+<table class="app-colour-list" summary="Table of main colours">
+    <tbody>
+
+<!--
+      <tr class="app-colour-list__row">
+        <td colspan="3" class="remove-btmargin">
+          <h3 id="nhs-blue-grey-background">NHS blue-grey background</h3>
+        </td>
+      </tr> -->
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch app-colour-list__swatch--border" style="background-color:#F0F4F5"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Page background</span>
+        </td>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#F0F4F5</span>
+        </td>
+      </tr>
+
+
+
+
+      <tr class="app-colour-list__row">
+        <td colspan="3" class="remove-btmargin">
+          <h3 id="error-state">Error state</h3>
+        </td>
+      </tr>
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#D5281B"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Error state colour</span>
+        </td>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#D5281B</span>
+        </td>
+      </tr>
+
+
+
+      <tr class="app-colour-list__row">
+        <td colspan="3" class="remove-btmargin">
+          <h3 id="link-colours">Link colours</h3>
+        </td>
+      </tr>
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#005EB8"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Link colour</span>
+        </td>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#005EB8</span>
+        </td>
+      </tr>
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#7C2855"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Hover link colour</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#7C2855</span>
+        </td>
+      </tr>
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#330072"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Visited link colour</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#330072</span>
+        </td>
+      </tr>
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#002F5C"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Active link colour</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#002F5C</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 id="border">Border</h3>
+  <table class="app-colour-list" summary="Table of main colours">
+      <tbody>
+      <!-- <tr class="app-colour-list__row">
+        <td colspan="3" class="remove-btmargin">
+          <h3 id="border">Border</h3>
+        </td>
+      </tr> -->
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#D8DDE0"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Border colour</span>
+        </td>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#D8DDE0</span>
+        </td>
+      </tr>
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#4C6272"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Form border colour</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#4C6272</span>
+        </td>
+      </tr>
+
+
+
+
+    </tbody>
+  </table>
+
+<!-- <h3 id="border">Border</h3>
 <ul>
 <li><p class="inline-container">Border colour<span class="colour-rect" style="--colour: #D8DDE0; --txt_clr: white">#D8DDE0</span></p>    </li>
 <li><p class="inline-container">Form border colour<span class="colour-rect" style="--colour: #4C6272; --txt_clr: white">#4C6272</span></p>  </li>
 </ul>
+
+<table class="app-colour-list" summary="Table of main colours">
+    <tbody>
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#D8DDE0"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Border colour</span>
+        </td>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#D8DDE0</span>
+        </td>
+      </tr>
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#4C6272"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Form border colour</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#4C6272</span>
+        </td>
+      </tr>
+
+    </tbody>
+  </table> -->
+
 <h2 id="written-content">Written Content</h2>
 <p>Use plain language. Research has shown that most people prefer to read plain English, and that the more specialist a person's knowledge is, the greater their preference. </p>
 <p>Our content is factual, neutral and unambiguous. We do not use metaphors - we say what we mean.</p>
@@ -688,7 +983,7 @@
 <h3 id="when-to-use-capital-letters">When to use Capital letters</h3>
 <ul>
 <li>use “Sentence case” for headings (capital letter at the start of the sentence only, except for proper nouns e.g. names, company names)</li>
-<li>use “Title Case” for the names of organisations, training programmes, schemes, and specialties (Capital letters for each word in a title)</li>
+<li>use “Title case” for the names of organisations, training programmes, schemes, and specialties (Capital letters for each word in a title)</li>
 </ul>
 <h3 id="tone-of-voice">Tone of voice</h3>
 <ul>
@@ -775,14 +1070,108 @@
 <h3 id="chart-colours">Chart colours</h3>
 <p>We recommend to stick to no more than 6 different variables (colours or tints) on a graph or other chart type, otherwise your visualisation will be confusing. If you need to plot more than 6 variables, you should consider alternative ways to visualise this information.</p>
 <p>Use the colours listed below, which have been tested for accessibility, in this order:</p>
-<ul>
+
+
+
+
+<table class="app-colour-list" summary="Table of main colours">
+    <tbody>
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#12436D"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Dark Blue</span>
+        </td>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#12436D</span>
+        </td>
+      </tr>
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#28A197"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Turquoise</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#28A197</span>
+        </td>
+      </tr>
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#801650"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Dark Pink</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#801650</span>
+        </td>
+      </tr>
+
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#F46A25"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Orange</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#F46A25</span>
+        </td>
+      </tr>
+
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#3D3D3D"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Dark Grey</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#3D3D3D</span>
+        </td>
+      </tr>
+
+
+      <tr class="app-colour-list__row">
+        <th class="app-colour-list__column app-colour-list__column--name">
+          <span class="app-colour-list__swatch" style="background-color:#A285D1"></span>
+        </th>
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>Light Purple</span>
+        </td>
+
+        <td class="app-colour-list__column app-colour-list__column--colour">
+          <span>#A285D1</span>
+        </td>
+      </tr>
+
+
+
+
+    </tbody>
+  </table>
+
+
+<!-- <ul>
 <li><p class="inline-container">Dark Blue<span class="colour-rect" style="--colour: #12436D; --txt_clr: white">#12436D</span></p>     </li>
 <li><p class="inline-container">Turquoise<span class="colour-rect" style="--colour: #28A197; --txt_clr: white">#28A197</span></p> </li>
 <li><p class="inline-container">Dark Pink<span class="colour-rect" style="--colour: #801650; --txt_clr: white">#801650</span></p></li>
 <li><p class="inline-container">Orange<span class="colour-rect" style="--colour: #F46A25; --txt_clr: white">#F46A25</span></p>    </li>
 <li><p class="inline-container">Dark Grey<span class="colour-rect" style="--colour: #3D3D3D; --txt_clr: white">#3D3D3D</span></p> </li>
 <li><p class="inline-container">Light Purple<span class="colour-rect" style="--colour: #A285D1; --txt_clr: white">#A285D1</span></p> </li>
-</ul>
+</ul> -->
 <h3 id="gridlines">Gridlines</h3>
 <ul>
 <li>most chart types should have gridlines on at least one axis </li>
@@ -800,24 +1189,22 @@
 <h4 id="accessibility">Accessibility</h4>
 <ul>
 <li>
-<p><a href="https://www.w3.org/mission/accessibility/">W3C accessibility pages</a></p>
+<p class="page-body-link"><a href="https://www.w3.org/mission/accessibility/" target="_blank">W3C accessibility pages (opens in a new window)</a></p>
 </li>
 <li>
-<p><a href="https://service-manual.nhs.uk/accessibility">NHS Design guide accessibility pages</a></p>
+<p class="page-body-link"><a href="https://service-manual.nhs.uk/accessibility" target="_blank">NHS Design guide accessibility pages (opens in a new window)</a></p>
 </li>
 </ul>
 <h4 id="data-visualisation">Data visualisation</h4>
 <ul>
-<li><a href="https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-colours-in-charts/">ONS and Civil Service research based data visualisation guidance</a></li>
+<li class="page-body-link"><a href="https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-colours-in-charts/" target="
+  ">ONS and Civil Service research based data visualisation guidance (opens in a new window)</a></li>
 </ul>
 <h4 id="content-design">Content design</h4>
 <ul>
-<li><a href="https://service-manual.nhs.uk/content">NHS Content Design guide</a></li>
+<li class="page-body-link"><a href="https://service-manual.nhs.uk/content" target="_blank">NHS Content Design guide (opens in a new window)</a></li>
 </ul>
-<h4 id="About">About</h4>
-<li> Author - Heather Shaw, Service Design Assistant. John-Henry Barac, Senior Service Designer</li>
-<li> Last updated: 23/09/2024</li>
-<li> Please send any enquiries or feedback to Nishad Shamnadh, nishad.shamnadh1@nhs.net</li>
+
 
 
 
@@ -838,10 +1225,8 @@
       <div class="md-copyright">
 
 
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
+    Federated Data Platform Design Guide
+
 
 </div>
 
