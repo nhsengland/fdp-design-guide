@@ -164,6 +164,13 @@ background: #fff;
 .md-typeset code{
   background-color: #f0f4f5 !important;
 }
+
+table {
+    margin-bottom: 40px;
+    border-spacing: 0;
+    vertical-align: top;
+    width: 100%;
+}
 /*
   .md-nav__list a
   {
