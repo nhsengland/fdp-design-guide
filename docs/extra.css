@@ -56,7 +56,7 @@
   }
 
   html, body {
-      font-family: "Frutiger", Arial, Sans-serif !important;
+      /* font-family: "Frutiger", Arial, Sans-serif !important; */
       color: #212B32 !important;
       background-color: #f0f4f5 !important;
   }
