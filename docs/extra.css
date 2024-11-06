@@ -193,6 +193,15 @@ tr
   vertical-align: middle !important;
   line-height: 2;
 }
+
+
+.remove-space th
+  {
+    padding-right: 10px;
+    padding-bottom: 16px;
+    float: left !important;
+  }
+
 /*
   .md-nav__list a
   {
