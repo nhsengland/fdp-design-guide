@@ -171,6 +171,11 @@ table {
     vertical-align: top;
     width: 100%;
 }
+tr
+{
+  float: left;
+  padding-right: 20px;
+}
 /*
   .md-nav__list a
   {
