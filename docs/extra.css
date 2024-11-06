@@ -146,8 +146,8 @@ background: #fff;
   color: #fff !important;
 }
 
-.app-colour-list__swatch {
-    background-color: #f0f4f5;
+.app-colour-list__swatch_one {
+    background-color: #D8DDE0;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 50%;
     display: inline-block;
@@ -155,6 +155,11 @@ background: #fff;
     margin-right: 8px;
     vertical-align: middle;
     width: 40px;
+}
+.app-colour-list__column {
+    padding-left: 0;
+    padding-top: 0;
+    vertical-align: middle;
 }
 /*
   .md-nav__list a
