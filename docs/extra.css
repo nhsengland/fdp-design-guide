@@ -172,7 +172,7 @@ background: #fff;
 }
 
 table {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     border-spacing: 0;
     vertical-align: top;
 }
