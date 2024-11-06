@@ -146,8 +146,8 @@ background: #fff;
   color: #fff !important;
 }
 
-.app-colour-list__swatch_one {
-    background-color: #D8DDE0;
+.app-colour-list__swatch {
+    background-color: #f0f4f5;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 50%;
     display: inline-block;
