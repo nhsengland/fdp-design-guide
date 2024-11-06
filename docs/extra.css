@@ -166,16 +166,10 @@ background: #fff;
 }
 
 table {
-  border: 1px solid black;
-  table-layout: fixed;
-  width: 100%;
-}
-
-th,
-td {
-  border: 1px solid black;
-  width: 100px;
-  overflow: hidden;
+    margin-bottom: 40px;
+    border-spacing: 0;
+    vertical-align: top;
+    width: 100%;
 }
 /*
   .md-nav__list a
