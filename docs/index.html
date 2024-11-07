@@ -1041,7 +1041,7 @@ Aligning text
 <ul class="bullet-padding">
   <li>Examples</li>
   <li>Codeine comes mixed with paracetamol (co-codamol) or with aspirin (co-codaprin) or with ibuprofen (Nurofen Plus). </li>
-  <li>Watch these <a href="https://www.healthtalk.org/" target="_blank">healthtalk.org (opens in a new window)</a> videos. </li>
+  <li>Watch these <a href="https://www.healthtalk.org/" target="_blank">healthtalk.org (opens in a new window)</a> videos. </li>
 </ul>
 <li>Conditions are lower case except where they start with a proper name. For example: </li>
 <ul class="bullet-padding">
@@ -1075,9 +1075,9 @@ Aligning text
 <h3 id="dates">Dates</h3>
 <ul>
 <li>always use UK format for dates, do not use American format</li>
-<li>use this format for dates: 6 August 2018</li>
+<li>use this format for dates except when a short date is needed (see below): 6 August 2018</li>
 <li>if you need to include the day of the week, use this format: Wednesday 6 August 2018</li>
-<li>short dates should be formatted DD-Mmm-YYYY: 6-Aug-2018 </li>
+<!-- <li>short dates should be formatted DD-Mmm-YYYY: 6-Aug-2018 </li> -->
 </ul>
 <h3 id="time">Time</h3>
 <ul>
@@ -1090,24 +1090,37 @@ Aligning text
 </ul>
 <h3 id="typography">Typography</h3>
 <ul>
-<li>do not use italics or underlining (except for links, which are underlined by default). Use bold sparingly.  </li>
-<li>do not use bold to emphasise text, instead use front-loaded sentences, headers, or bullet points </li>
+<li>do not use italics or underlining</li>
+<li>use bold sparingly (Example all header sections should be bold, but do not use bold to highlight words in sentences) </li>
+<li>do not use bold to emphasise text, instead use front-loaded sentences, headers, or bullet points  - make sure the copy provides meaning quickly and clearly </li>
 </ul>
+
+<h3 id="information">Information hierarchy (Semantic page structure) </h3>
+<ul>
+<li>make sure headers and sub-headers are labelled correctly for screen readers</li>
+<li>only one H1 header (always page title) (establish Foundry equivalent) </li>
+<li>headings and sub-headings should follow a logical hierarchy. The second heading on a page should be a h2, any subheadings to this section a h3. You can have more than one h2  </li>
+<li>heading levels can never be skipped on the way down (h1, h2, h3, h4) but can be on the way up (h4, h2)  </li>
+</ul>
+
+
+
+
 <h2 id="links-and-buttons">Links and buttons</h2>
 <ul>
-<li>when placing links in body text, hyperlink the title of the content only </li>
+<li>when placing links in body text, hyperlink the title of the content only, and don’t show the Url in the text </li>
 <li>do not hyperlink the verb, the preceding article (the, a, our and so on) or the punctuation after the anchor text </li>
-<li>make your link descriptive and clear. Tell users where the link will take them </li>
+<!-- <li>make your link descriptive and clear. Tell users where the link will take them </li> -->
 <li>do not hyperlink headings or subheadings </li>
-<li>use meaningful links, do not say “click here” </li>
-<li>if a link opens in a new screen, say “opens in a new window”</li>
-<li>do not use "raw" or "naked" URLs. These will be read out in full by screen readers</li>
+<!-- <li>use meaningful links, do not say “click here” </li> -->
+<li>If links do go to a new tab, warn the user by saying: "Link name (opens in new tab)".</li>
+<!-- <li>do not use "raw" or "naked" URLs. These will be read out in full by screen readers</li>
 <li>links should open in the same window, unless <ul>
 <li>You are providing help information, and you don’t want to take the user away from the process they are in </li>
-<li>The user is on a login screen when you don’t want to take them away from the login process. In these situations, “opens in a new window” needs to be included in the link text. </li>
+<li>The user is on a login screen when you don’t want to take them away from the login process. In these situations, “opens in a new window” needs to be included in the link text. </li> -->
 </ul>
-</li>
-</ul>
+
+
 <h2 id="tool-tips">Tool Tips</h2>
 <ul>
 <li>the tooltip must be usable with both keyboards and screen readers</li>
