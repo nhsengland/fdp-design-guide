@@ -211,6 +211,9 @@ tr
   margin-bottom: 0px !important;
 }
 
+ul.bullet-padding{
+  padding-left: 20px;
+}
 
 /*
   .md-nav__list a
