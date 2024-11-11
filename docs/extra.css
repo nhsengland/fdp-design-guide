@@ -215,9 +215,14 @@ ul.bullet-padding{
   padding-left: 30px;
 }
 
-.no-margin-top-bottom{
+.no-margin-bt{
   margin-bottom: 0px !important;
 }
+
+.no-margin-tp{
+  margin-top: 0px !important;
+}
+
 
 /*
   .md-nav__list a
