@@ -223,6 +223,16 @@ ul.bullet-padding{
   margin-top:0px !important;
 }
 
+.nhsuk-button::before {
+    background: rgba(0, 0, 0, 0);
+    bottom: -6px;
+    content: "";
+    display: block;
+    left: -2px;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+}
 
 /*
   .md-nav__list a
