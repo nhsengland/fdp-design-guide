@@ -223,6 +223,9 @@ ul.bullet-padding{
   margin-top:0px !important;
 }
 
+.no-padding-bt{
+  padding-bottom: 0px !important;
+}
 
 
 .button {
