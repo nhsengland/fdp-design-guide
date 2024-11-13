@@ -238,6 +238,7 @@ background-color: #007f3b;
   min-height: 30px;
   min-width: 30px;
   text-align: left;
+  color: #fff !important;
   vertical-align: middle;
   border-width: initial;
   border-style: none;
