@@ -291,8 +291,8 @@ background-color: #007f3b;
   padding: 5px 10px;
   box-shadow: inset 0 0 0 1px rgba(17, 20, 24, .2), 0 1px 2px rgba(17, 20, 24, .1);
 }
-.secondary-button:hover{background-color:#384853}
-.white-button:hover{background-color:#f2f2f2;color:#212b32}
+.secondary-button:hover{background-color:#384853 !important;}
+.white-button:hover{background-color:#f2f2f2;color:#212b32 !important;}
 .button:hover{background-color:#00662f !important;}
 
 .bp5-button {
