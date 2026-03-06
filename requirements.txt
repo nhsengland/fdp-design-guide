@@ -1,6 +1,6 @@
 GitPython==3.1.41
 lxml==4.9.3
-Markdown==3.3.7
+Markdown==3.8.1
 MarkupSafe==2.1.1
 mkdocs==1.4.2
 mkdocs-git-revision-date-localized-plugin==1.1.0
