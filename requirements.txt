@@ -1,4 +1,4 @@
-GitPython==3.1.41
+GitPython==3.1.50
 lxml==4.9.3
 Markdown==3.3.7
 MarkupSafe==2.1.1
